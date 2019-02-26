@@ -1,0 +1,50 @@
+
+
+.mercedesheader{
+    
+    
+    text-align: center;
+    
+}
+.referencepages{
+    
+    text-align: right;
+      
+}
+body {
+    background-color: pink;
+}
+
+    
+
+#new {
+  
+    background-color: aliceblue;
+    color: black
+}
+#twoinone a{
+    
+    color: deeppink
+}
+#bullets ul{
+    color: darkgrey
+}
+#this {
+    
+    height: 10em;
+    display:grid;
+    align-items: center;
+    text-align: center;
+    justify-content:center;
+    background-color:black;
+    color: white
+    
+        
+}
+#menu{
+    text-align: center;
+    }
+
+
+
+
