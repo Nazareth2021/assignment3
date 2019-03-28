@@ -29,11 +29,23 @@ body {
     flex-direction: column
 }
 
-main h1 img {
-    flex: 1;
+main {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
 
+main h1 {
+    text-align: center;
+}
 
+main img {
+    align-self: center;
+    display: inline-block;
+    width: 50%;
+}
 
 #new {
 
@@ -52,16 +64,7 @@ main h1 img {
     color: darkgrey;
 }
 
-#this {
 
-    height: 10em;
-    display: grid;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    background-color: black;
-    color: white;
-}
 
 #menu {
     text-align: center;
@@ -69,12 +72,25 @@ main h1 img {
 
 header {
     display: flex;
-    align-items: center;
+/*    align-items: center;*/
 
 
 }
 
 header nav {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+
+}
+
+header nav ul li {
     flex: 1;
 }
 
