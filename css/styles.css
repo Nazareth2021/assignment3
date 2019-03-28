@@ -72,26 +72,28 @@ main img {
 
 header {
     display: flex;
-/*    align-items: center;*/
-
-
+    align-items: center;
 }
 
 header nav {
-    display: flex;
-    flex: 1;
-    justify-content: flex-end;
 
+    flex: 1;
+
+
+}
+
+a:hover {
+    color: dimgrey;
 }
 
 header nav ul {
-    list-style: none;
     display: flex;
-
+    justify-content: flex-end;
 }
 
 header nav ul li {
-    flex: 1;
+    list-style: none;
+    padding: 1em;
 }
 
 @media screen and (max-width: 40rem) {
