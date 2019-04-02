@@ -1,7 +1,7 @@
 html {
     box-sizing: border-box;
     margin: 0;
-    color: #ccc;
+    color: black;
 }
 
 .mercedesheader {
@@ -50,7 +50,7 @@ main img {
 #new {
 
     background-color: aliceblue;
-    opacity: .4;
+    opacity: .8;
     color: black;
     background-image: linear-gradient(#ef3253, white)
 }
@@ -61,7 +61,8 @@ main img {
 }
 
 #bullets ul {
-    color: darkgrey;
+    color: black;
+    background-color: azure;
 }
 
 
